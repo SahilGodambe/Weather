@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+        <span class="white-text">What's the</span>
+        <span class="gradient-text">Weather?</span>
+    </h2>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <h2>
+        <span class="white-text">Some of the Best</span>
+        <span class="gradient-text">Seasons</span>
+        <span class="white-text">of different</span>
+        <span class="gradient-text">Cities</span>
+        <span class="white-text">across the</span>
+        <span class="gradient-text">Globe!</span>
+    </h2>
+    <br><br>
+
+    <div class="container">
+        <div>
+          <div class="content">
+            <h2>Kyoto</h2>
+            <span>Spring</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Mumbai</h2>
+            <span>Monsoon</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>New York</h2>
+            <span>Autumn</span>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Paris</h2>
+            <span>Summer</span>
+          </div>
+        </div>
+        <div>
+            <div class="content">
+              <h2>Moscow</h2>
+              <span>Winter</span>
+            </div>
+        </div>
+        <div>
+            <div class="content">
+              <h2>Sydney</h2>
+              <span>Autumn</span>
+            </div>
+        </div>
+        <div>
+            <div class="content">
+              <h2>Santorini</h2>
+              <span>Late Spring</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
